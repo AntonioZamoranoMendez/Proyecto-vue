@@ -1,4 +1,7 @@
-# .
+# HECHO POR: ANTONIO DE JESUS ZAMORANO MENDEZ
+
+#MATRÍCULA: 23311011
+#GRUPO:5-2
 
 This template should help get you started developing with Vue 3 in Vite.
 
