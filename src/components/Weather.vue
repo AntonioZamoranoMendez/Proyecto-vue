@@ -1,7 +1,12 @@
-<template>7°</template>
+<template>
+  <h3>Clima actual {{ weatherStore.temperatura }}°</h3>
+</template>
 <script setup>
 import { useWeather } from '@/composables/useWeather'
 import { onMounted } from 'vue'
+import { useWeatherStore } from '@/stores/weatherStore'
+
+const weatherStore = useWeatherStore()
 
 onMounted(() => {
   useWeather()
